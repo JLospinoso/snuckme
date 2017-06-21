@@ -1,0 +1,23 @@
+{
+  "name": "snuckme",
+  "version": "0.1.0",
+  "description": "Detection tool for SSL man in the middle.",
+  "main": "app.js",
+  "keywords": [],
+  "author": "Josh Lospinoso",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.1",
+    "crypto-js": "3.1.9-1",
+    "express": "4.14.0",
+    "get-ssl-certificate": "^2.0.0",
+    "node-rsa": "0.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://gitlab.com/jalospinoso/snuckme.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
